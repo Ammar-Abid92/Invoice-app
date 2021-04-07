@@ -303,7 +303,7 @@ class Bill_App:
 #Function For Text Area
     def welcome_soft(self):
         self.txt.delete('1.0',END)
-        self.txt.insert(END,"       Welcome To Hanan's Retail\n")
+        self.txt.insert(END,"       Welcome To Ammar's Retail\n")
         self.txt.insert(END,f"\nBill No. : {str(self.c_bill_no.get())}")
         self.txt.insert(END,f"\nCustomer Name : {str(self.cus_name.get())}")
         self.txt.insert(END,f"\nPhone No. : {str(self.c_phone.get())}")
